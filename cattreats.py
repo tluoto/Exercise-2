@@ -14,7 +14,7 @@ David Whipp - 12.9.2016
 '''
 
 # Set the selected cat
-SelectedCat = 7
+SelectedCat = 6
 
 # Create and fill lists of cats and treats
 Cats = ['Garfield', 'Nermal', 'Tom Cat', 'Puss in Boots', 'Hobbes', 'Stimpy', 'Snowball II']
