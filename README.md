@@ -51,12 +51,23 @@ You can add under the Problem 3 heading.
 
 # Answers
 ## Problem 1
-This is some text.
-You can use *italics* or **bold** text easily.
-You may want to read a bit more about [formatting text in Github-flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
-You can see an example of how to display an image with a caption below.
+Even though not quite a error in itself (because user could give wrong inputs), I had to change value of variable SelectedCat from 7 anything between 0-6 or (-7) - (-1), because indexes in list start from 0 and so there is no cats in list of 7 cats with index 7.
+
+Then I noticed there was only 6 treats for 7 cats, so I decided to add treat 'Small dogs' for cat 'Snowball II' 
+
+Then code had new variable defining index of wanted cat, but because already input was created to use index instead of name, this row only gave error message, because Cats.index(SelectedCat) would return index of item SelectedCat in list Cats. If input SelectedCat would have been given as name of cat instead of its index, this row would have been needed, but now I just removed it.
+
+And because SelectedCat was index of wanted cat, not its name, last row of code had to be changed so that name and treat of wanted cat was given as items in corresponding lists with wanted index, so Cats[SelectedCat] and Treats[SelectedCat]
+
+## Problem 2
+There was no real challenges here because this exercise was pretty much copy of exercise 1 with different variables. Hardest part was probably finding how to upload file to github.
+
+This exercise was about lists and especially .index() from this weeks lessons.
+
+## Problem 3
+I did like the fact that first real exercises were simple and more concentrated on learning how to use github as working environment. Maybe one thing that needs little more explanations is problem 1, because at least I had some difficulties in finding out how to commit new versions of script after each fix.
 
 ![Text shown if image does not load](Images/thornydevil.JPG)<br/>
-*Figure 1: A green tree python*
+*Figure 1: A Thorny devil (just because these little fellows are just so cute)*
 
-Here is a bit more text beneath the image. Have fun!
+
