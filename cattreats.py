@@ -18,7 +18,7 @@ SelectedCat = 6
 
 # Create and fill lists of cats and treats
 Cats = ['Garfield', 'Nermal', 'Tom Cat', 'Puss in Boots', 'Hobbes', 'Stimpy', 'Snowball II']
-Treats = ['Lasagne', 'Praise', 'Mice', 'Power', 'Calvin', 'Fresh kitty litter']
+Treats = ['Lasagne', 'Praise', 'Mice', 'Power', 'Calvin', 'Fresh kitty litter', 'Small dogs']
 
 # Find location of selected cat
 CatIndex = Cats.index(SelectedCat)
