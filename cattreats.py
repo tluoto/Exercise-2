@@ -24,4 +24,4 @@ Treats = ['Lasagne', 'Praise', 'Mice', 'Power', 'Calvin', 'Fresh kitty litter', 
 # CatIndex = Cats.index(SelectedCat)
 
 # Print cat name and favorit treat on screen
-print("The favorite treat of", SelectedCat, "is", Treats[SelectedCat])
+print("The favorite treat of", Cats[SelectedCat], "is", Treats[SelectedCat])
