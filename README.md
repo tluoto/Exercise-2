@@ -56,7 +56,7 @@ You can use *italics* or **bold** text easily.
 You may want to read a bit more about [formatting text in Github-flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
 You can see an example of how to display an image with a caption below.
 
-![Text shown if image does not load](Images/green-tree-python.jpg)<br/>
+![Text shown if image does not load](Images/thornydevil.JPG)<br/>
 *Figure 1: A green tree python*
 
 Here is a bit more text beneath the image. Have fun!
